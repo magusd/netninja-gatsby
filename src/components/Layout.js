@@ -1,7 +1,7 @@
 import '../styles/global.css'
 import React from "react"
 import Navbar from "./Navbar"
-export default function Layout({ children }) {
+export default function Layout({ children, data }) {
   return (
     <div className="layout">
       <Navbar />
